@@ -68,6 +68,9 @@
   <ItemGroup>
     <Folder Include="App_Config\Include\zzz\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\shell\Override\SetPassword.xaml.xml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
